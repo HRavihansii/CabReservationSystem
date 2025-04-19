@@ -3,13 +3,28 @@ A Java-based Online vehicle booking system is a streamlined booking platform des
 
 🔹 Features
 
-✅ User Authentication – Secure login with username/password  
-✅ Customer Booking System – Add & manage reservations  
-✅ Booking Details Display – View customer orders  
-✅ Billing System – Calculate total fare based on pickup/drop-off  
-✅ Car & Driver Management – Manage vehicles & drivers  
-✅ Help Section – Guide for new users  
-✅ Exit Functionality – Secure logout  
+- User Authentication – Secure login with username/password  
+- Customer Booking System – Add & manage reservations  
+- Booking Details Display – View customer orders  
+- Billing System – Calculate total fare based on pickup/drop-off  
+- Car & Driver Management – Manage vehicles & drivers  
+- Help Section – Guide for new users  
+- Exit Functionality – Secure logout
+
+👥 User Roles
+Admin	    Manage Users, drivers, vehicles, bookings
+Customer	Book rides, view booking history
+Driver	  View assigned rides
+
+## 📸 Screenshots
+
+
+## Technologies
+- Java (JDK 21+)
+- Microsoft SQL Server (Windows)
+- Apache Tomcat
+- HTML/CSS + Bootstrap
+- GitHub for version control
 
 📂 How to Use
 
