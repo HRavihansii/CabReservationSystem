@@ -1,9 +1,11 @@
 package model;
 
 public class User {
+
+    private int uid;
     private String username;
     private String password;
-    private String role;
+    private int role;
     private String firstname;
     private String lastname;
     private String email;
@@ -11,10 +13,11 @@ public class User {
     private String address;
 
     // Default Constructor
-    public User() {}
+    public User() {
+    }
 
     // Parameterized Constructor
-    public User(String username, String password, String role, String firstname, String lastname, String email, String telephone, String address) {
+    public User(String username, String password, int role, String firstname, String lastname, String email, String telephone, String address) {
         this.username = username;
         this.password = password;
         this.role = role;
@@ -26,6 +29,14 @@ public class User {
     }
 
     // Getters and Setters
+    public int getUid() {
+        return uid;
+    }
+
+    public void setUid(int uid) {
+        this.uid = uid;
+    }
+
     public String getUsername() {
         return username;
     }
@@ -42,11 +53,11 @@ public class User {
         this.password = password;
     }
 
-    public String getRole() {
+    public int getRole() {
         return role;
     }
 
-    public void setRole(String role) {
+    public void setRole(int role) {
         this.role = role;
     }
 
@@ -93,8 +104,8 @@ public class User {
     // Optional: A method to print user details (useful for debugging)
     @Override
     public String toString() {
-        return "User [username=" + username + ", role=" + role + ", firstname=" + firstname +
-               ", lastname=" + lastname + ", email=" + email + ", telephone=" + telephone +
-               ", address=" + address + "]";
+        return "User [username=" + username + ", role=" + role + ", firstname=" + firstname
+                + ", lastname=" + lastname + ", email=" + email + ", telephone=" + telephone
+                + ", address=" + address + "]";
     }
 }

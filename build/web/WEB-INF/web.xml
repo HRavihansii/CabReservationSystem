@@ -30,4 +30,24 @@
         <url-pattern>/BookingServlet</url-pattern>
     </servlet-mapping>
    
+   <!-- Manage Users Servlet -->
+    <servlet>
+        <servlet-name>ManageUsersServlet</servlet-name>
+        <servlet-class>servlet.UsersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageUsersServlet</servlet-name>
+        <url-pattern>/ManageUsersServlet</url-pattern>
+    </servlet-mapping> 
+    
+   <!-- Manage Vehicles Servlet -->
+    <servlet>
+        <servlet-name>ManageVehiclesServlet</servlet-name>
+        <servlet-class>servlet.ManageVehiclesServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ManageVehiclesServlet</servlet-name>
+        <url-pattern>/ManageVehiclesServlet</url-pattern>
+    </servlet-mapping>
+    
 </web-app>

@@ -3,10 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/F:/Netbeans%20Projects/MegaCityCabs/web/login.jsp</file>
-            <file>file:/F:/Netbeans%20Projects/MegaCityCabs/src/java/servlet/LoginServlet.java</file>
             <file>file:/F:/Netbeans%20Projects/MegaCityCabs/web/customerDashboard.jsp</file>
             <file>file:/F:/Netbeans%20Projects/MegaCityCabs/src/java/servlet/BookingServlet.java</file>
+            <file>file:/F:/Netbeans%20Projects/MegaCityCabs/web/viewBooking.jsp</file>
+            <file>file:/F:/Netbeans%20Projects/MegaCityCabs/web/airportBooking.jsp</file>
+            <file>file:/F:/Netbeans%20Projects/MegaCityCabs/web/quickTour.jsp</file>
         </group>
     </open-files>
 </project-private>
